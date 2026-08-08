@@ -1,0 +1,28 @@
+# Musicfy AI
+> AI-powered music player. Play, pause, search songs using natural language.
+
+## CONNECT TO CLAUDE
+1. Go to: https://claude.ai/settings/connectors
+2. Click 'Add custom connector'
+3. Paste: https://unmischievously-rheotropic-luca.ngrok-free.dev/mcp
+4. Save and open a NEW chat
+
+## HOW IT WORKS
+- User tells Claude to play a song
+- Claude calls Musicfy MCP tools
+- Musicfy website plays the song in real time
+
+## TOOLS
+- play_song(song) — Play a song by name on the Musicfy website
+- control_playback(action) — pause / resume / stop playback
+- search_song(query) — Search for a song
+
+## EXAMPLE USAGE
+User: "Play Thuli Thuli"
+User: "Pause the music"
+User: "Search for AR Rahman songs"
+
+## MCP DETAILS
+Endpoint: https://unmischievously-rheotropic-luca.ngrok-free.dev/mcp
+Discovery: https://unmischievously-rheotropic-luca.ngrok-free.dev/.well-known/mcp.json
+Version: 1.0.0
