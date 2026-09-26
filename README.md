@@ -62,6 +62,10 @@ pm2 start server.js --name musicfy-backend
 
 Requires API keys/config for the internal proxy authentication and AWS access — see `.env.example`. None of these are committed to this repository.
 
+## Note
+
+This backend exposes dual MCP (Model Context Protocol) server transports, allowing Claude Desktop and claude.ai to control playback on the platform directly.
+
 ## Status
 
 Built and deployed as part of an AI Engineering internship at Spinacle Technologies.
